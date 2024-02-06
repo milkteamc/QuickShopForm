@@ -15,8 +15,8 @@ public class QuickShopPriceSetForm extends RCustomForm {
     public QuickShopPriceSetForm(Player player, RForm previousForm, QuickShop shop) {
         super(player, previousForm);
         this.shop = shop;
-        title("§8商店价格修改");
-        input("请输入你要修改的商店价格", "§7数字,可以是小数");
+        title("§8商店價格修改");
+        input("請輸入你要修改的商店價格", "§7數字");
     }
 
     @Override

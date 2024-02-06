@@ -14,11 +14,11 @@ public class QuickShopSettingForm extends RSimpleForm {
     public QuickShopSettingForm(Player player, RForm previousForm, QuickShop shop) {
         super(player, previousForm);
         this.shop = shop;
-        title("商店设置");
-        content("商店设置");
-        button("切换商店状态", FormImage.of(FormImage.Type.PATH, "textures/ui/arrow_dark_right_stretch.png"));
-        button("修改商店价格", FormImage.of(FormImage.Type.PATH, "textures/ui/store_home_icon.png"));
-        button("§c删除商店", FormImage.of(FormImage.Type.PATH, "textures/ui/realms_red_x.png"));
+        title("商店設定");
+        content("商店設定");
+        button("切換商店狀態", FormImage.of(FormImage.Type.PATH, "textures/ui/arrow_dark_right_stretch.png"));
+        button("修改商店價格", FormImage.of(FormImage.Type.PATH, "textures/ui/store_home_icon.png"));
+        button("§c刪除商店", FormImage.of(FormImage.Type.PATH, "textures/ui/realms_red_x.png"));
     }
 
     @Override

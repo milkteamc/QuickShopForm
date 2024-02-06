@@ -12,8 +12,8 @@ public class QuickShopMainForm extends RCustomForm {
 
     public QuickShopMainForm(Player player, RForm previousForm, QuickShop shop) {
         super(player, previousForm);
-        title("商店菜单");
-        input("请输入你要购买/出售的物品数量\n物品价格:" + shop.getPrice() + "金币", "§7整数");
+        title("商店選單");
+        input("請輸入要購買/出售的物品數量\n物品價格:" + shop.getPrice() + "元", "§7整數");
     }
 
     @Override
